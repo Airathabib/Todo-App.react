@@ -1,0 +1,17 @@
+.button {
+	height: 50px;
+	cursor: pointer;
+	background-color: beige;
+	font-size: 1.5rem;
+	padding: 10px 15px;
+	border: none;
+	border-radius: .5rem;
+	-webkit-border-radius: .5rem;
+	-moz-border-radius: .5rem;
+	-ms-border-radius: .5rem;
+	-o-border-radius: .5rem;
+}
+
+.button:hover {
+	background-color: rgb(240, 240, 155);
+}

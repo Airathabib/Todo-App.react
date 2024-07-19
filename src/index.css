@@ -1,0 +1,26 @@
+:root {
+  --bg-color: #2c3578;
+  --text: #fff;
+  --todo-border: #a6a2a2;
+  --todo-text: #112d49;
+  --todo-bg: #fbfef9;
+  --completed-border: #ccc8c8;
+  --completed-text: #ccc8c8;
+  --hover: #f0f09b;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
